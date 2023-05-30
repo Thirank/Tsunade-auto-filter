@@ -534,7 +534,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     protect_content=True if ident == "filep" else False,
                     reply_markup=InlineKeyboardMarkup(
                         [[                          
-                          InlineKeyboardButton("⚜️ᴋᴏᴍ ʟɪɴᴋꜱ⚜️", url='https://t.me/KOM_LINKS')
+                          InlineKeyboardButton("⚜️Mᴄ Lɪɴᴋs⚜️", url='https://t.me/Mc_Film_Mainchannel')
                         ]]
                     )
                 )
@@ -548,7 +548,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton("📥  ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ  📥", url=f"{mh.link}")
                         ],
                         [
-                            InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url="https://t.me/+Ek0ThHrI-KYwMWQ1")
+                            InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url="https://t.me/+jVcLq_ulcIJhOTQ1")
                         ]
                     ]
                 )
@@ -600,7 +600,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             protect_content=True if ident == 'checksubp' else False,
             reply_markup=InlineKeyboardMarkup(
                 [[                          
-                  InlineKeyboardButton("⚜️ᴋᴏᴍ ʟɪɴᴋꜱ⚜️", url='https://t.me/KOM_LINKS')
+                  InlineKeyboardButton("⚜️Mᴄ Lɪɴᴋs⚜️", url='https://t.me/Mc_Film_Mainchannel')
                 ]]
             )
         )
@@ -614,7 +614,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton("📥  ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ  📥", url=f"{mh.link}")
                 ],
                 [
-                 InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url="https://t.me/+Ek0ThHrI-KYwMWQ1")
+                 InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url="https://t.me/+jVcLq_ulcIJhOTQ1")
                 ]
             ]
         ))
@@ -1181,15 +1181,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton('🪄ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ🪄', url="t.me/KOM_LINKS")
+            InlineKeyboardButton('🪄ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ🪄', url="t.me/Mc_Film_Mainchannel")
        ],[
-            InlineKeyboardButton('🎬ɢʀᴏᴜᴘ🎬', url="t.me/KINGOFMOVIES003"),
-            InlineKeyboardButton('🏅ᴄʜᴀɴɴᴇʟ🏅', url="t.me/KOMOFFICIAL")
+            InlineKeyboardButton('🎬ɢʀᴏᴜᴘ🎬', url="t.me/Mc_Group_films"),
+            InlineKeyboardButton('🏅ᴄʜᴀɴɴᴇʟ🏅', url="t.me/Mc_films_channel")
        ],[
-            InlineKeyboardButton('📣ʙᴏᴛ ᴜᴩᴅᴀᴛᴇꜱ📣', url="t.me/KOMBOTZZ"),
-            InlineKeyboardButton('🤖ꜱᴜᴘᴘᴏʀᴛ🤖', url="https://t.me/KOMBOTZZSUPPORT")
+            InlineKeyboardButton('📣Mᴏᴠɪᴇs ᴜᴩᴅᴀᴛᴇꜱ📣', url="t.me/Mc_Films_Update"),
+            InlineKeyboardButton('🤖ꜱᴜᴘᴘᴏʀᴛ🤖', url="https://t.me/Mc_Films_Update")
        ],[
-            InlineKeyboardButton('➕️ʜᴇʟᴩ➕️', url="t.me/Komassistantbot")
+            InlineKeyboardButton('➕️ʜᴇʟᴩ➕️', url="t.me/Mc_Group_Adminbot")
        ],[ 
             InlineKeyboardButton('⌫ ʙᴀᴄᴋ', callback_data='start')
         ]]
@@ -1398,7 +1398,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⌫ ʙᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("☎️Cᴏɴᴛᴀᴄᴛ☎️", url="t.me/LUTTAPPIxTG")
+                    InlineKeyboardButton("☎️Cᴏɴᴛᴀᴄᴛ☎️", url="t.me/Thiranitsme")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
