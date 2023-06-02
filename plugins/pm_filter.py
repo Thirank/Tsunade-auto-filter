@@ -64,7 +64,7 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>ɪꜰ yᴏᴜ ɴᴇᴇᴅ ᴍᴏᴠɪᴇ ᴊᴏɪɴ @KINGOFMOVIES003 ᴀɴᴅ ᴀꜱᴋ !</b>")
+    await message.reply_text("<b>ɪꜰ yᴏᴜ ɴᴇᴇᴅ ᴍᴏᴠɪᴇ ᴊᴏɪɴ @Mc_Group_films ᴀɴᴅ ᴀꜱᴋ !</b>")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
@@ -120,17 +120,17 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
+                    InlineKeyboardButton(f'😇 Iɴғᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'minfo'),
+                    InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
+                    InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'minfo'),
+                    InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'sinfo')
                 ]
             )
                 
@@ -141,17 +141,17 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
+                  InlineKeyboardButton(f'😇 Iɴғᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'minfo'),
+                    InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
+                    InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'minfo'),
+                    InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'sinfo')
                 ]
             )
     try:
@@ -244,7 +244,8 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("📍 Cʜᴇᴄᴋ Bᴏᴛ PM 📍", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("📍 Cʜᴇᴄᴋ Bᴏᴛ PM 📍", url=f"https://t.me/{temp.U_NAME}"),
+        InlineKeyboardButton("⚡ Files ⚡", url=f"{total_results}")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1540,17 +1541,17 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
+                    InlineKeyboardButton(f'😇 Iɴғᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'minfo'),
+                    InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
+                    InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'minfo'),
+                    InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'sinfo')
                 ]
             )
                 
@@ -1561,22 +1562,23 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
+                    IInlineKeyboardButton(f'😇 Iɴғᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'minfo'),
+                    InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
+                    InlineKeyboardButton(f'📟 Mᴏᴠɪᴇs', 'minfo'),
+                    InlineKeyboardButton(f'🔰 Sᴇʀɪᴇs', 'sinfo')
                 ]
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}"),
+         InlineKeyboardButton("⚡ Files ⚡", url=f"{total_results}")          
     ])
 
     if offset != "":
