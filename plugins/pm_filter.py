@@ -244,8 +244,8 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("📍 Cʜᴇᴄᴋ Bᴏᴛ PM 📍", url=f"https://t.me/{temp.U_NAME}"),
-        InlineKeyboardButton("⚡ Files ⚡", url=f"{total_results}")
+        InlineKeyboardButton("📍 Cʜᴇᴄᴋ Bᴏᴛ PM 📍", url=f"https://t.me/{temp.U_NAME}")
+      
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1577,8 +1577,8 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}"),
-         InlineKeyboardButton("⚡ Files ⚡", url=f"{total_results}")          
+        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+  
     ])
 
     if offset != "":
