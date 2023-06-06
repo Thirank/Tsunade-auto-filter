@@ -256,8 +256,8 @@ async def next_page(bot, query):
         pass
     await query.answer()
     
-     else:
-
+     
+    else:
         return await query.answer(f"Sᴏʀʀʏ, Nᴏ ғɪʟᴇs ғᴏᴜɴᴅ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {movie}.", show_alert=True)
 
     
