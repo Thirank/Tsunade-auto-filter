@@ -258,8 +258,8 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("📍 Cʜᴇᴄᴋ Bᴏᴛ PM 📍", url=f"https://t.me/{temp.U_NAME}")
-      
+        InlineKeyboardButton("📍 Cʜᴇᴄᴋ Bᴏᴛ PM 📍", url=f"https://t.me/{temp.U_NAME}"),
+           InlineKeyboardButton(f'ғɪʟᴇs: {len(files)} ', 'dupee')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1591,8 +1591,8 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
-  
+        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}"),
+        InlineKeyboardButton(f'ғɪʟᴇs: {len(files)} ', 'dupee')
     ])
 
     if offset != "":
