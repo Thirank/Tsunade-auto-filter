@@ -70,7 +70,7 @@ async def pm_text(bot, message):
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
     )
     
-  @Client.on_callback_query(filters.regex(r"^lang"))
+  @Client.on_callback_query(filters.regex(r"^lang")
 
 async def language_check(bot, query):
 
