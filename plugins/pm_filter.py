@@ -310,7 +310,7 @@ async def language_check(bot, query):
             ]
             for file in files
         ]
-       try:
+    try:
 
             if settings['auto_delete']:
 
