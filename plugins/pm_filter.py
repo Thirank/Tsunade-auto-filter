@@ -342,7 +342,7 @@ async def language_check(bot, query):
 
                 )
 
-        except KeyError:
+    except KeyError:
 
             await save_group_settings(query.message.chat.id, 'auto_delete', True)
 
