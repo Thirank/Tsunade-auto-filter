@@ -259,7 +259,7 @@ async def next_page(bot, query):
     await query.answer()
     
      
- @Client.on_callback_query(filters.regex(r"^lang"))
+@Client.on_callback_query(filters.regex(r"^lang"))
 
 async def language_check(bot, query):
 
