@@ -366,9 +366,8 @@ async def language_check(bot, query):
        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
         ])
 
-        if offset != "":
-
-            key = f"{query.message.chat.id}-{query.message.id}"
+    if offset != "":
+        key = f"{query.message.chat.id}-{query.message.id}"
 
             BUTTONS[key] = movie
 
