@@ -367,7 +367,7 @@ async def language_check(bot, query):
         ])
 
     
-        if offset != "":
+    if offset != "":
             key = f"{query.message.chat.id}-{query.message.id}"
             BUTTONS[key] = movie
             req = userid
@@ -398,8 +398,6 @@ async def language_check(bot, query):
             pass
         await query.answer()
         
-   else:
-        return await query.answer(f"Sᴏʀʀʏ, Nᴏ ғɪʟᴇs ғᴏᴜɴᴅ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {movie}.", show_alert=True)
     
 @Client.on_callback_query(filters.regex(r"^select_lang"))
 
