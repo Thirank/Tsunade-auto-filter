@@ -394,6 +394,7 @@ async def language_check(bot, query):
             await query.edit_message_reply_markup(
                 reply_markup=InlineKeyboardMarkup(btn)
             )
+            
     except MessageNotModified:
         pass
     await query.answer()
@@ -449,6 +450,7 @@ try:
             reply_markup=InlineKeyboardMarkup(btn)
 
         )
+        
     except MessageNotModified:
         pass
     await query.answer()
