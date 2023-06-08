@@ -449,11 +449,8 @@ try:
             reply_markup=InlineKeyboardMarkup(btn)
 
         )
-
     except MessageNotModified:
-
         pass
-
     await query.answer()
     
 
