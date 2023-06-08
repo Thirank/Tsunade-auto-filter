@@ -390,7 +390,7 @@ async def language_check(bot, query):
             btn.append(
                 [InlineKeyboardButton(text="𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄",callback_data="pages")]
             )
-        try:
+    try:
             await query.edit_message_reply_markup(
                 reply_markup=InlineKeyboardMarkup(btn)
             )
