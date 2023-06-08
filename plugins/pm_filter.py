@@ -398,10 +398,6 @@ async def language_check(bot, query):
     except MessageNotModified:
         pass
     await query.answer()
-    else:
-
-        return await query.answer(f"Sᴏʀʀʏ, Nᴏ ғɪʟᴇs ғᴏᴜɴᴅ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {movie}.", show_alert=True)
-
     
         
     
@@ -456,9 +452,9 @@ try:
 
         )
         
-    except MessageNotModified:
+   except MessageNotModified:
         pass
-    await query.answer()
+   await query.answer()
     
 
 @Client.on_callback_query(filters.regex(r"^spol"))
