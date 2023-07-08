@@ -246,8 +246,8 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("📍 Cʜᴇᴄᴋ Bᴏᴛ PM 📍", url=f"https://t.me/{temp.U_NAME}"),
-        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
+        InlineKeyboardButton("📍 Cʜᴇᴄᴋ Bᴏᴛ PM 📍", url=f"https://t.me/{temp.U_NAME}")
+        
         
     ])
     try:
@@ -1581,8 +1581,8 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}"),
-        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
+        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+    
         
     ])
 
