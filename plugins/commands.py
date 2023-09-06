@@ -259,7 +259,7 @@ async def start(client, message):
                      InlineKeyboardButton("📥  ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ  📥", url=f"{mh.link}")
                     ],
                     [
-                    InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url="https://t.me/+jVcLq_ulcIJhOTQ1")
+                    InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇss ❓ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⚠️", url="https://t.me/+Dpg7VL5wLDMzOGY1")
                     ]
                 ]
             ))
