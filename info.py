@@ -55,8 +55,8 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 # Others
 S_GROUP = environ.get('S_GROUP',"https://t.me/+qbsTMm-ZAWQyYTg1")
 TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
-CHANNEL_ID = environ.get("CHANNEL_ID", "-1001598939419")
-CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://t.me/+jVcLq_ulcIJhOTQ1')
+CHANNEL_ID = environ.get("CHANNEL_ID", "-1001908264496")
+CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://t.me/+Dpg7VL5wLDMzOGY1')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
